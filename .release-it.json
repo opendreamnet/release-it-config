@@ -39,15 +39,15 @@
           },
           {
             "type": "refactor",
-            "section": "General"
+            "section": "Code Refactoring"
           },
           {
             "type": "chore",
-            "section": "General"
+            "section": "Chores"
           },
           {
             "type": "test",
-            "hidden": true
+            "section": "Tests"
           },
           {
             "type": "build",
@@ -55,7 +55,7 @@
           },
           {
             "type": "ci",
-            "hidden": true
+            "section": "Continuous Integration"
           }
         ]
       },
