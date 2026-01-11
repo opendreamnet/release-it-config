@@ -1,6 +1,7 @@
 {
   "$schema": "https://unpkg.com/release-it@19/schema/release-it.json",
   "git": {
+    "commitsPath": ".",
     "commitMessage": "chore(release): v${version}",
     "tagName": "v${version}"
   },
@@ -58,6 +59,15 @@
             "section": "Continuous Integration"
           }
         ]
+      },
+      "context": {
+        "linkCompare": true
+      },
+      "commitsOpts": {
+        "path": "."
+      },
+      "gitRawCommitsOpts": {
+        "path": "."
       },
       "parserOpts": {
         "noteKeywords": ["BREAKING CHANGE", "BREAKING-CHANGE", "BREAKING CHANGES", "BREAKING-CHANGES"]
